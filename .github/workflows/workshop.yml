@@ -10,6 +10,7 @@ jobs:
   explore:
     runs-on: ubuntu-latest
     steps:
+      # uses: calls a Marketplace action - this one clones your repo
       - name: Checkout code
         uses: actions/checkout@v4
 
